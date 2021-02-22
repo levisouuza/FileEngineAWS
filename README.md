@@ -12,5 +12,5 @@ O projeto FileEngineAWS apresenta um data pipeline que extrai arquivos, com uma 
 
 #### Algumas pontos importantes para execução do projeto: 
 
-* Bibliotecas utilizadas: * boto3 (SDK dos serviços da AWS) e psycopg2 (lib para instânciar o banco de dados).
+* *Bibliotecas utilizadas:* boto3 (SDK dos serviços da AWS) e psycopg2 (lib para instânciar o banco de dados).
 * Conectividade: *
