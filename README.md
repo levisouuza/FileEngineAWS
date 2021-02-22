@@ -15,5 +15,6 @@ O projeto FileEngineAWS apresenta um data pipeline que extrai arquivos, com uma 
 * **Bibliotecas utilizadas:** boto3 (SDK dos serviços da AWS) e psycopg2 (lib para instânciar o banco de dados).
 * **Conectividade e segurança:** Na AWS, é importante que, para desenvolvimento, dentro do Security Group da VPC default, em regras de entrada (Inbound Rules) seja inserido o seu IP e o IP da servidor EC2 aberta na porta 5432, para que ocorra a comunicação entre o EC2 e o RDS (PostgreSQL). Além disso, foi necessário criar um Security Group com a regra de entrada específica do tipo SSH com o IP da máquina local para acessar via Putty e, realizar as devidas alterações no server.
 
+Com a execução do Script, podemos verificar resultado no S3 bucket na imagem abaixo:
 
-
+![s3bucket](https://github.com/levisouuza/FileEngineAWS/blob/master/images/AWSs3.png)
