@@ -18,3 +18,7 @@ O projeto FileEngineAWS apresenta um data pipeline que extrai arquivos, com uma 
 Com a execução do Script, podemos verificar resultado no S3 bucket na imagem abaixo:
 
 ![s3bucket](https://github.com/levisouuza/FileEngineAWS/blob/master/images/AWSs3.png)
+
+É possível monitorar o resultado das cargas pelo Dashboard abaixo:
+
+![dash](https://github.com/levisouuza/FileEngineAWS/blob/master/images/MonitorAWS.png)
